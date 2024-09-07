@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.12">
+  <diagram name="Media Labs Azure Cloud Resources" id="xqkridY4kmfQoANty8uZ">
+    <mxGraphModel dx="1002" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1E1t6tW-ZAblCUEpYNYI-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="60" width="630" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="1E1t6tW-ZAblCUEpYNYI-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="150" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1E1t6tW-ZAblCUEpYNYI-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="320" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1E1t6tW-ZAblCUEpYNYI-6" value="SparkIAC-rg" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Resource_Groups.svg;" parent="1" vertex="1">
+          <mxGeometry x="110" y="40" width="38" height="35.76" as="geometry" />
+        </mxCell>
+        <mxCell id="1E1t6tW-ZAblCUEpYNYI-7" value="SparkIAC.vnet" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_network;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="100" width="40" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1E1t6tW-ZAblCUEpYNYI-8" value="Subnet-1-Spark" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Subnet.svg;" parent="1" vertex="1">
+          <mxGeometry x="220" y="140" width="38" height="22.76" as="geometry" />
+        </mxCell>
+        <mxCell id="1E1t6tW-ZAblCUEpYNYI-9" value="Subnet-2-Spark" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Subnet.svg;" parent="1" vertex="1">
+          <mxGeometry x="220" y="308.62" width="38" height="22.76" as="geometry" />
+        </mxCell>
+        <mxCell id="q3jb1dxgvVtcdcgHOEsf-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1E1t6tW-ZAblCUEpYNYI-10" target="q3jb1dxgvVtcdcgHOEsf-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1E1t6tW-ZAblCUEpYNYI-10" value="SparkIAC-VM" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Automanaged_VM.svg;" parent="1" vertex="1">
+          <mxGeometry x="277" y="192.47" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="q3jb1dxgvVtcdcgHOEsf-1" value="Media Labs Azure Cloud Resources" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="340" y="10" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FtJ8vDNaKLZp4-ZV4S4q-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q3jb1dxgvVtcdcgHOEsf-2" target="FtJ8vDNaKLZp4-ZV4S4q-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q3jb1dxgvVtcdcgHOEsf-2" value="spark-mysqlfs-iac601" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Database_for_MySQL_servers.svg;" parent="1" vertex="1">
+          <mxGeometry x="283" y="356.58000000000004" width="28" height="36.84" as="geometry" />
+        </mxCell>
+        <mxCell id="q3jb1dxgvVtcdcgHOEsf-3" value="SparkAIC-public-ip" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Public_IP_Addresses.svg;" parent="1" vertex="1">
+          <mxGeometry x="364" y="140" width="23.67" height="18.94" as="geometry" />
+        </mxCell>
+        <mxCell id="q3jb1dxgvVtcdcgHOEsf-4" value="SparkIAC.nsg" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" parent="1" vertex="1">
+          <mxGeometry x="425" y="240" width="23.67" height="28.74" as="geometry" />
+        </mxCell>
+        <mxCell id="q3jb1dxgvVtcdcgHOEsf-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="q3jb1dxgvVtcdcgHOEsf-5" target="q3jb1dxgvVtcdcgHOEsf-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q3jb1dxgvVtcdcgHOEsf-5" value="SparkIAC-nic" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Interfaces.svg;" parent="1" vertex="1">
+          <mxGeometry x="359" y="192.76000000000002" width="33.67" height="29.71" as="geometry" />
+        </mxCell>
+        <mxCell id="q3jb1dxgvVtcdcgHOEsf-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.368;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="q3jb1dxgvVtcdcgHOEsf-2" target="1E1t6tW-ZAblCUEpYNYI-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="330" as="sourcePoint" />
+            <mxPoint x="470" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtJ8vDNaKLZp4-ZV4S4q-1" value="SparkIAC.mysql.database.azure.com" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
+          <mxGeometry x="364" y="410" width="34" height="34" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
