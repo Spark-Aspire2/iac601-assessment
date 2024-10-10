@@ -4,8 +4,8 @@ Import-Module "C:\Program Files\Microsoft Deployment Toolkit\bin\MicrosoftDeploy
 
 $deploymentShare = "C:\DeploymentShare"
 $mdtPath = "$deploymentShare\Control"
-$networkPath = "\\VM-WS2022\DeploymentShare"
-$domainName = "spark.com"
+$networkPath = "\\IAC-SERVER\DeploymentShare"
+$domainName = "iac.com"
 
 #2.Create a new share folder for the deployment
 New-Item $deploymentShare -Type directory -Force
